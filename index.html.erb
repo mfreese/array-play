@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title><%our_class%></title>
+    </head>
+    <body>
+        <div>
+            <h1>Short Names</h1>
+            <ul>
+                <% short_names.each do |name| %>
+                <li>
+                    <%= name %>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+
+        <div>
+            <h1>Words</h1>
+            <ul>
+                <% words.each do |word| %>
+                <li>
+                    <%= word %>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+
+        <div>
+            <h1>Low Budget</h1>
+            <ul>
+                <% low_budget.each do |budget| %>
+                <li>
+                    <%= budget %>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+
+        <div>
+            <h1>LEO</h1>
+            <ul>
+                <% leo.each do |leo| %>
+                <li>
+                    <%= leo %>
+                </li>
+                <% end %>
+            </ul>
+        </div>
+    </html>
